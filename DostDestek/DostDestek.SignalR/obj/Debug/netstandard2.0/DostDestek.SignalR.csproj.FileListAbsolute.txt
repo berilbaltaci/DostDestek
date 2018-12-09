@@ -1,0 +1,6 @@
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.SignalR\bin\Debug\netstandard2.0\DostDestek.SignalR.deps.json
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.SignalR\bin\Debug\netstandard2.0\DostDestek.SignalR.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.SignalR\obj\Debug\netstandard2.0\DostDestek.SignalR.csprojResolveAssemblyReference.cache
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.SignalR\obj\Debug\netstandard2.0\DostDestek.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.SignalR\obj\Debug\netstandard2.0\DostDestek.SignalR.AssemblyInfoInputs.cache
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.SignalR\obj\Debug\netstandard2.0\DostDestek.SignalR.AssemblyInfo.cs

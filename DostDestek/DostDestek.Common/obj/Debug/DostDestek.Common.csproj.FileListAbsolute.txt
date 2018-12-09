@@ -1,0 +1,76 @@
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.dll.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Entity.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Entity.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.csprojResolveAssemblyReference.cache
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.dll.config
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Entity.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Entity.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.csprojResolveAssemblyReference.cache
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.csproj.CoreCompileInputs.cache
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Entity.dll.config
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.csproj.CopyComplete
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\PagedList.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\PagedList.Mvc.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\PagedList.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\PagedList.Mvc.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Owin.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestek.Common\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.dll.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Common.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Entity.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Owin.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\PagedList.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\PagedList.Mvc.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Entity.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\DostDestek.Entity.dll.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\PagedList.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\bin\Debug\PagedList.Mvc.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.csprojResolveAssemblyReference.cache
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.csproj.CoreCompileInputs.cache
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.csproj.CopyComplete
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestek.Common\obj\Debug\DostDestek.Common.pdb

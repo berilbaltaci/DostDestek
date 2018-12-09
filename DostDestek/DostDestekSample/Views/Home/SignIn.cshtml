@@ -1,0 +1,40 @@
+﻿@model DostDestek.Entity.Member
+@{
+    ViewBag.Title = "SignIn";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<h2>SignIn</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserName)
+            @Html.ValidationMessageFor(model => model.UserName)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Password)
+        </div>
+        <div class="editor-field">
+            @Html.PasswordFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+        <br />
+        <p>
+            <input type="submit" value="Login" />
+        </p>
+        <div>
+            @Html.ActionLink("Uye Olmak İcin Tiklayiniz", "SignUp")
+        </div>
+        <div>
+            @ViewBag.Mesaj
+        </div>
+    </fieldset>
+}
+

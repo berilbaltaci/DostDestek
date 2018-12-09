@@ -1,0 +1,37 @@
+﻿@model IEnumerable<DostDestek.Entity.Topic>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>List</h2>
+<p>
+    @Html.ActionLink("Create New", "AddTopic")
+</p>
+<div>
+    @ViewBag.Mesaj
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TopicName)
+        </th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopicName)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.TopicId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.TopicId })
+            </td>
+        </tr>
+    }
+
+</table>
+
+

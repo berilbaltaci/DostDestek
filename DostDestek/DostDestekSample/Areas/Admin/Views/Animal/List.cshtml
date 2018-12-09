@@ -1,0 +1,36 @@
+﻿@model IEnumerable<DostDestek.Entity.Animal>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>List</h2>
+<p>
+    @Html.ActionLink("Create New", "AddAnimal")
+</p>
+<div>
+    @ViewBag.Mesaj
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AnimalName)
+        </th>
+        
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnimalName)
+            </td>
+            
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.AnimalId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.AnimalId })
+            </td>
+        </tr>
+    }
+
+</table>
+

@@ -1,0 +1,57 @@
+﻿@using DostDestek.Entity
+@model IEnumerable<DostDestek.Entity.Post>
+@{
+    Member mem = ((Member)HttpContext.Current.Session["User"]);
+    ViewBag.Title = "ListByTopic";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    <div class="post">
+        <div class="wrap-ut pull-left">
+            <div class="userinfo pull-left">
+                <div class="avatar">
+                    <img src="~/Upload/Profile_avatar_placeholder_large.png" alt="" height="30" width="30" />
+                </div>
+                <div class="bold_brown_text">
+                    @item.Member.FirstName @item.Member.LastName
+                </div>
+            </div>
+            <div class="posttext pull-left">
+                <a href="~/Home/Detail/@item.PostId">
+                    <h2>@item.Title</h2>
+                    <p>@item.Animal.AnimalName - @item.Topic.TopicName</p>
+                    <p>@item.Post1</p>
+                </a>
+            </div>
+            <div class="postinfobot">
+                <div class="likeblock pull-left">
+                    <a href="~/Home/LikeValue/@item.PostId" class="up"><i class="fa fa-thumbs-o-up"></i>@item.Like</a>
+                    <a href="~/Home/DislikeValue/@item.PostId" class="down"><i class="fa fa-thumbs-o-down"></i>@item.Dislike</a>
+
+                </div>
+
+                <div class="prev pull-left">
+                    <i class="fa fa-eye"></i>@item.View
+                </div>
+
+                <div class="prev pull-left">
+                    <i class="fa fa-reply"></i> @item.CommentNum
+                </div>
+
+                @if (mem == null)
+    {
+            <div class="posted pull-left"><i class="fa fa-clock-o"></i> Posted on : @item.PostDate</div>
+}
+else if (item.MemberId == mem.UserId && mem != null)
+{
+            <div class="posted pull-left"><i class="fa fa-clock-o"></i> Posted on : @item.PostDate    <a href="~/Home/DeletePost/@item.PostId"><i class="fa fa-trash-o"></i></a></div>
+
+}
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+}

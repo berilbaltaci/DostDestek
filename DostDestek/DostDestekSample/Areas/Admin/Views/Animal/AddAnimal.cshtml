@@ -1,0 +1,30 @@
+﻿@model DostDestek.Entity.Animal
+@{
+    ViewBag.Title = "AddAnimal";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>AddAnimal</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Animal</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.AnimalName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.AnimalName)
+            @Html.ValidationMessageFor(model => model.AnimalName)
+        </div>
+        
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+
+}
+

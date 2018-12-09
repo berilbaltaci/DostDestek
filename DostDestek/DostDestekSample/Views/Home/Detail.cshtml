@@ -1,0 +1,103 @@
+﻿@using DostDestek.Entity
+@model Post
+@{
+    Member mem = ((Member)HttpContext.Current.Session["User"]);
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<div class="post beforepagination">
+    <div class="topwrap">
+        <div class="userinfo pull-left">
+            <div class="avatar">
+                <img src="~/Upload/Profile_avatar_placeholder_large.png" alt="" height="30" width="30" />
+            </div>
+            <div class="bold_brown_text">
+                @Html.DisplayFor(m => m.Member.FirstName) @Html.DisplayFor(m => m.Member.LastName)
+            </div>
+        </div>
+        <div class="posttext pull-left">
+            <h2>@Html.DisplayFor(m=>m.Title)</h2>
+            <p>@Html.DisplayFor(m => m.Topic.TopicName) - @Html.DisplayFor(m => m.Animal.AnimalName)</p>
+            <p>@Html.DisplayFor(m => m.Post1)</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="postinfobot">
+
+        <div class="likeblock pull-left">
+            <a href="~/Home/LikeValue/@Model.PostId" class="up"><i class="fa fa-thumbs-o-up"></i>@Html.DisplayFor(m => m.Like)</a>
+            <a href="~/Home/DislikeValue/@Model.PostId" class="down"><i class="fa fa-thumbs-o-down"></i>@Html.DisplayFor(m => m.Dislike)</a>
+        </div>
+
+        <div class="prev pull-left">
+            <i class="fa fa-eye"></i> @Html.DisplayFor(m => m.View)
+        </div>
+        <div class="prev pull-left">
+            <i class="fa fa-reply"></i> @Html.DisplayFor(m => m.CommentNum)
+        </div>
+        @if (mem == null)
+    {
+        <div class="posted pull-left"><i class="fa fa-clock-o"></i> Posted on : @Html.DisplayFor(m=>m.PostDate)</div>
+}
+else if (Model.MemberId == mem.UserId && mem != null)
+{
+        <div class="posted pull-left"><i class="fa fa-clock-o"></i> Posted on :  @Html.DisplayFor(m => m.PostDate)     <a href="~/Home/DeletePost/@Model.PostId"><i class="fa fa-trash-o"></i></a></div>
+
+}
+
+        <div class="clearfix"></div>
+    </div>
+</div><!-- POST -->
+
+<br />
+
+@foreach (Comment item in Model.Comment)
+{
+    <div class="post">
+        <div class="topwrap">
+            <div class="userinfo pull-left">
+                <div class="avatar">
+                    <img src="~/Upload/Profile_avatar_placeholder_large.png" alt="" height="30" width="30" />
+                </div>
+                <div class="bold_brown_text">
+                    @item.Member.FirstName @item.Member.LastName
+                </div>
+            </div>
+            <div class="posttext pull-left">
+                <p>@item.Comment1</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="postinfobot">
+
+            @if (mem == null)
+            {
+            <div class="posted pull-left"><i class="fa fa-clock-o"></i> Posted on : @item.CommentDate</div>
+            }
+            else if (item.MemberId == mem.UserId && mem != null)
+            {
+            <div class="posted pull-left"><i class="fa fa-clock-o"></i> Posted on : @item.CommentDate</div>
+            <div class="next pull-right">
+                <a href="~/Home/DeleteComment/@item.CommentId"><i class="fa fa-trash-o"></i></a>
+            </div>
+            }
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <br />
+}
+
+<p>Your Comment</p>
+@using (Html.BeginForm("Detail", "Home", FormMethod.Post))
+{
+    <div class="comments">
+        <div class="content">
+            <div class="text">
+                <p><textarea name="comment" placeholder="Your Comment"></textarea></p>
+            </div>
+            <input type="submit" class="mini-button" value="Send" />
+        </div>
+    </div>
+    <br />
+}

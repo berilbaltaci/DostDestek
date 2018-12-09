@@ -1,0 +1,167 @@
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.csprojResolveAssemblyReference.cache
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\ApplicationInsights.config
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\csc.exe
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\vbc.exe
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\VBCSCompiler.exe
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestekSample.dll.config
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestekSample.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestekSample.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Common.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Entity.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Repository.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.Web.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.ApplicationInsights.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Helpers.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Mvc.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Razor.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Webpages.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Webpages.Razor.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\EntityFramework.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Common.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Entity.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Repository.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.Web.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.ApplicationInsights.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Razor.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Webpages.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Webpages.Razor.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Helpers.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Mvc.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\EntityFramework.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.csprojResolveAssemblyReference.cache
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Antlr3.Runtime.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Newtonsoft.Json.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Optimization.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\WebGrease.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Antlr3.Runtime.pdb
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Newtonsoft.Json.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\System.Web.Optimization.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\EntityFramework.SqlServer.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\EntityFramework.SqlServer.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Common.dll.config
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Entity.dll.config
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\DostDestek.Repository.dll.config
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.csproj.CoreCompileInputs.cache
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.csproj.CopyComplete
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\PagedList.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\PagedList.Mvc.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\PagedList.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\PagedList.Mvc.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.Owin.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.Owin.Security.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Owin.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.Owin.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.Owin.Security.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\berilbaltaci\Documents\Visual Studio 2015\Projects\DostDestek\DostDestekSample\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\ApplicationInsights.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\csc.exe
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\vbc.exe
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\VBCSCompiler.exe
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestekSample.dll.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestekSample.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestekSample.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Antlr3.Runtime.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Common.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Entity.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Repository.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\EntityFramework.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\EntityFramework.SqlServer.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.Web.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.ApplicationInsights.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.Owin.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.Owin.Security.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Newtonsoft.Json.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Owin.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\PagedList.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\PagedList.Mvc.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Helpers.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Mvc.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Optimization.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Razor.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Webpages.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Webpages.Razor.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\WebGrease.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Common.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Common.dll.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Entity.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Entity.dll.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Repository.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\DostDestek.Repository.dll.config
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Antlr3.Runtime.pdb
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\EntityFramework.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\EntityFramework.SqlServer.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.Web.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.ApplicationInsights.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.Owin.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Microsoft.Owin.Security.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\Newtonsoft.Json.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\PagedList.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\PagedList.Mvc.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Optimization.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Razor.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Webpages.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Webpages.Razor.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Helpers.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\bin\System.Web.Mvc.xml
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.csprojResolveAssemblyReference.cache
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.csproj.CoreCompileInputs.cache
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.csproj.CopyComplete
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.dll
+C:\Users\berilbaltaci\Desktop\DostDestek\DostDestek\DostDestekSample\obj\Debug\DostDestekSample.pdb

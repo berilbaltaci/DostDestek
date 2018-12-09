@@ -1,0 +1,45 @@
+﻿@model IEnumerable<DostDestek.Entity.Post>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>List Posts</h2>
+<div>
+    @ViewBag.Mesaj
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Topic)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Animal)
+        </th>
+        <th>
+            Post
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Topic.TopicName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Animal.AnimalName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Post1)
+        </td>
+
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id = item.PostId })
+        </td>
+    </tr>
+    }
+
+</table>

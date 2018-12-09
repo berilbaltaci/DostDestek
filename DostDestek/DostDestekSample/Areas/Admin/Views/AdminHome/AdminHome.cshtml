@@ -1,0 +1,10 @@
+﻿@using DostDestek.Entity
+@{
+    Member mem = (Member)HttpContext.Current.Session["User"];
+    Member user = (Member)Session["User"];
+    ViewBag.Title = "AdminHome";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>WELCOME @user.FirstName.ToUpper() @user.LastName.ToUpper()</h1>
+

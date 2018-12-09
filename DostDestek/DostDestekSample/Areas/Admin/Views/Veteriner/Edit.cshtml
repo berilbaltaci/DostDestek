@@ -1,0 +1,56 @@
+﻿@model DostDestek.Entity.Veteriner
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Admin</legend>
+        @Html.HiddenFor(model => model.VetId)
+        @Html.HiddenFor(model => model.PersonId)
+        <div class="editor-label">
+            @Html.LabelFor(model => model.VetName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.VetName)
+            @Html.ValidationMessageFor(model => model.VetName)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.VetTelNo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.VetTelNo)
+            @Html.ValidationMessageFor(model => model.VetTelNo)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.VetAddress)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.VetAddress)
+            @Html.ValidationMessageFor(model => model.VetAddress)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.VetCommName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.VetCommName)
+            @Html.ValidationMessageFor(model => model.VetCommName)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PersonName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PersonName)
+            @Html.ValidationMessageFor(model => model.PersonName)
+        </div>
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HayvanDestekModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Animal">
+    <Key>
+      <PropertyRef Name="AnimalId" />
+    </Key>
+    <Property Name="AnimalId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AnimalName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_Post_Animal" FromRole="Animal" ToRole="Post" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PostId" Type="Int32" />
+    <Property Name="Comment1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_Comment_Post" FromRole="Comment" ToRole="Post" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="RoleId" Type="Int32" />
+    <NavigationProperty Name="UserRole" Relationship="Self.FK_Member_UserRole" FromRole="Member" ToRole="UserRole" />
+    <NavigationProperty Name="MessageRecipient" Relationship="Self.FK_MessageRecipient_Member" FromRole="Member" ToRole="MessageRecipient" />
+    <NavigationProperty Name="MessageT" Relationship="Self.FK_MessageT_Member" FromRole="Member" ToRole="MessageT" />
+  </EntityType>
+  <EntityType Name="MessageRecipient">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RecipientId" Type="Int32" />
+    <Property Name="MessageId" Type="Int32" />
+    <Property Name="isRead" Type="Int32" />
+    <NavigationProperty Name="Member" Relationship="Self.FK_MessageRecipient_Member" FromRole="MessageRecipient" ToRole="Member" />
+    <NavigationProperty Name="MessageT" Relationship="Self.FK_MessageRecipient_MessageT" FromRole="MessageRecipient" ToRole="MessageT" />
+  </EntityType>
+  <EntityType Name="MessageT">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TopicId" Type="Int32" />
+    <Property Name="SenderId" Type="Int32" />
+    <Property Name="MesaageBody" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="createDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Member" Relationship="Self.FK_MessageT_Member" FromRole="MessageT" ToRole="Member" />
+    <NavigationProperty Name="MessageRecipient" Relationship="Self.FK_MessageRecipient_MessageT" FromRole="MessageT" ToRole="MessageRecipient" />
+    <NavigationProperty Name="Topic" Relationship="Self.FK_MessageT_Topic" FromRole="MessageT" ToRole="Topic" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="PostId" />
+    </Key>
+    <Property Name="PostId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PostDate" Type="DateTime" Precision="3" />
+    <Property Name="MemberId" Type="Int32" />
+    <Property Name="TopicId" Type="Int32" />
+    <Property Name="AnimalId" Type="Int32" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_Post_Animal" FromRole="Post" ToRole="Animal" />
+    <NavigationProperty Name="Comment" Relationship="Self.FK_Comment_Post" FromRole="Post" ToRole="Comment" />
+    <NavigationProperty Name="Topic" Relationship="Self.FK_Post_Topic" FromRole="Post" ToRole="Topic" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Topic">
+    <Key>
+      <PropertyRef Name="TopicId" />
+    </Key>
+    <Property Name="TopicId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TopicName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MessageT" Relationship="Self.FK_MessageT_Topic" FromRole="Topic" ToRole="MessageT" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_Post_Topic" FromRole="Topic" ToRole="Post" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Member" Relationship="Self.FK_Member_UserRole" FromRole="UserRole" ToRole="Member" />
+  </EntityType>
+  <Association Name="FK_Post_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="0..1" />
+    <End Role="Post" Type="Self.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="AnimalId" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="AnimalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="PostId" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Member_UserRole">
+    <End Role="UserRole" Type="Self.UserRole" Multiplicity="0..1" />
+    <End Role="Member" Type="Self.Member" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRole">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Member">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MessageRecipient_Member">
+    <End Role="Member" Type="Self.Member" Multiplicity="0..1" />
+    <End Role="MessageRecipient" Type="Self.MessageRecipient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="MessageRecipient">
+        <PropertyRef Name="RecipientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MessageT_Member">
+    <End Role="Member" Type="Self.Member" Multiplicity="0..1" />
+    <End Role="MessageT" Type="Self.MessageT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="MessageT">
+        <PropertyRef Name="SenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MessageRecipient_MessageT">
+    <End Role="MessageT" Type="Self.MessageT" Multiplicity="1" />
+    <End Role="MessageRecipient" Type="Self.MessageRecipient" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MessageT">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MessageRecipient">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MessageT_Topic">
+    <End Role="Topic" Type="Self.Topic" Multiplicity="0..1" />
+    <End Role="MessageT" Type="Self.MessageT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Topic">
+        <PropertyRef Name="TopicId" />
+      </Principal>
+      <Dependent Role="MessageT">
+        <PropertyRef Name="TopicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Post_Topic">
+    <End Role="Topic" Type="Self.Topic" Multiplicity="0..1" />
+    <End Role="Post" Type="Self.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Topic">
+        <PropertyRef Name="TopicId" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="TopicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HayvanDestekEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Animal" EntityType="Self.Animal" />
+    <EntitySet Name="Comment" EntityType="Self.Comment" />
+    <EntitySet Name="Member" EntityType="Self.Member" />
+    <EntitySet Name="MessageRecipient" EntityType="Self.MessageRecipient" />
+    <EntitySet Name="MessageT" EntityType="Self.MessageT" />
+    <EntitySet Name="Post" EntityType="Self.Post" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Topic" EntityType="Self.Topic" />
+    <EntitySet Name="UserRole" EntityType="Self.UserRole" />
+    <AssociationSet Name="FK_Post_Animal" Association="Self.FK_Post_Animal">
+      <End Role="Animal" EntitySet="Animal" />
+      <End Role="Post" EntitySet="Post" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_Post" Association="Self.FK_Comment_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Comment" EntitySet="Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Member_UserRole" Association="Self.FK_Member_UserRole">
+      <End Role="UserRole" EntitySet="UserRole" />
+      <End Role="Member" EntitySet="Member" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MessageRecipient_Member" Association="Self.FK_MessageRecipient_Member">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="MessageRecipient" EntitySet="MessageRecipient" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MessageT_Member" Association="Self.FK_MessageT_Member">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="MessageT" EntitySet="MessageT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MessageRecipient_MessageT" Association="Self.FK_MessageRecipient_MessageT">
+      <End Role="MessageT" EntitySet="MessageT" />
+      <End Role="MessageRecipient" EntitySet="MessageRecipient" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MessageT_Topic" Association="Self.FK_MessageT_Topic">
+      <End Role="Topic" EntitySet="Topic" />
+      <End Role="MessageT" EntitySet="MessageT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Post_Topic" Association="Self.FK_Post_Topic">
+      <End Role="Topic" EntitySet="Topic" />
+      <End Role="Post" EntitySet="Post" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DostDestek.Entity.Veteriner>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>List</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model=>model.VetName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VetTelNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VetAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VetCommName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PersonName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VetTelNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VetAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VetCommName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.VetId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.VetId })
+            </td>
+        </tr>
+    }
+
+</table>
